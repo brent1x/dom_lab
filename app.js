@@ -24,12 +24,12 @@ function cd() {
 }
 	
 function clickClack(event) {
-		// SWAP LI CLASS TO SELECTED
-		event.target.className = "selected";
-		console.log("test4");
-		// SWAP IMAGES TO LAST CLASS SELECTED
-		document.querySelector("img").setAttribute("src", "./images/"+event.target.innerHTML+".jpeg");
-		console.log("test5");
+	// SWAP LI CLASS TO SELECTED
+	event.target.className = "selected";
+	console.log("test4");
+	// SWAP IMAGES TO LAST CLASS SELECTED
+	document.querySelector("img").setAttribute("src", "./images/"+event.target.innerHTML+".jpeg");
+	console.log("test5");
 }
 
 // 5 – RESET BUTTON REMOVES SELECTED CLASS, CHANGES IMAGES TO PANICKED BRO
